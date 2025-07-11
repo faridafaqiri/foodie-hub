@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie Hub</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Font: Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/thali.png" alt="Thali Icon" width="40" height="35" class="me-2">
+        <span class="fw-bold foodie">Foodie Hub</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <ul class="navbar-nav mb-2 ">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#restaurant" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#restaurant">Taj Mahal Bistro</a></li>
+              <li><a class="dropdown-item" href="#restaurant">Karim's, Delhi</a></li>
+              <li><a class="dropdown-item" href="#restaurant">Delhi Darbar</a></li>
+              <li><a class="dropdown-item" href="#restaurant">Mumbai Masala</a></li>
+              <li><a class="dropdown-item" href="#restaurant">Goa Grill</a></li>
+              <li><a class="dropdown-item" href="#restaurant">Kolkata Kitchen</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#order">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- hero section -->
+  <div class="container mt-5 pt-5 d-flex flex-column justify-content-center align-items-center hero">
+    <h1 class="display-4 text-center fw-bold">Welcome to Foodie Hub</h1>
+    <p class="display-6 text-center">Order your favorite meals instantly!🍛</p>
+    <div class="text-center mt-4">
+      <a href="#order" class="btn btn-warning me-3">Order Now</a>
+      <a href="#restaurants" class="btn btn-outline-dark">Explore </a>
+    </div>
+  </div>
+  <!-- resturannt section -->
+  <div id="restaurant" class="py-5">
+    <h1 class="text-center text-warning mb-4">Restaurants</h1>
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- card 1 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/ta.webp" class="card-img-top img-fluid  rounded-bottom-circle"
+              alt="Taj Mahal Indian Bistro">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Taj Mahal Indian Bistro</h5>
+              <p class="card-text">Taj Mahal Indian Bistro offers a cozy and welcoming setting with traditional Indian
+                decor. It's known for rich flavors, fresh ingredients, and a wide vegetarian menu alongside meat and
+                seafood dishes.</p>
+              <a href="menu.html#taj-mahal" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/karim.jpg" class="card-img-top img-fluid rounded-top-circle" alt="Karim's, Delhi">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Karim's, Delhi</h5>
+              <p class="card-text">Another gem from the capital city, Karim's has been serving patrons for over a
+                century. Famous for its delectable kebabs, biryanis, and rich curries, it remains a favorite among
+                locals and tourists alike.</p>
+              <a href="menu.html#Karim's, Delhi" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/Britannia & Co., Mumbai.avif" class="card-img-top img-fluid rounded-start-circle"
+              alt="Delhi Darbar">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Delhi Darbar</h5>
+              <p class="card-text">A famous kebab house specializing in both North Indian and Middle Eastern cuisine is
+                a great option for a diverse and flavorful dining experience.Food is also good with a selection of many
+                indian dishes</p>
+              <a href="menu.html#Delhi Darbar" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/mumbai.avif" class="card-img-top img-fluid rounded-top-5" alt="Mumbai">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Mumbai Masala Indian Grill</h5>
+              <p class="card-text">Mumbai Masala is a modern Indian grill in Harlem, NYC, renowned for its authentic,
+                flavorful dishes, including popular vegetarian and halal options, and praised for its butter chicken and
+                buttery naan.</p>
+              <a href="menu.html#Karim's, Delhi" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/goa.avif" class="card-img-top img-fluid rounded-pill" alt="Goa Grill">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Goa Grill</h5>
+              <p class="card-text">Goa Grill is a popular restaurant located in Siolim, North Goa. It's known for its
+                cozy, open-air setting and delicious grilled dishes, especially its famous rotisserie chicken and big
+                burgers.</p>
+              <a href="menu.html#taj-mahal" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/Kolkata Kitchen.webp" class="card-img-top img-fluid rounded-top-circle"
+              alt="Kolkata Kitchen">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Kolkata Kitchen</h5>
+              <p class="card-text">Kolkata Kitchen is a restaurant that offers traditional food from Kolkata, a famous
+                city in eastern India. The restaurant is known for its authentic Bengali dishes, full of rich spices and
+                local flavors.</p>
+              <a href="menu.html#Mumbai Masala" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 7 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/buryani.webp" class="card-img-top img-fluid rounded-bottom-5" alt="Biryani Blues">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Biryani Blues</h5>
+              <p class="card-text">Located in Gurgaon, Biryani Blues is known for its authentic Hyderabadi biryani,
+                kebabs, and traditional Indian meals served fresh and fast.</p>
+              <a href="menu.html#Karim's, Delhi" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 8 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img src="images/buryani1.webp" class="card-img-top img-fluid rounded-bottom-pill" alt="Paradise Biryani">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paradise Biryani</h5>
+              <p class="card-text">A legendary restaurant from Hyderabad, famous for its dum biryani, chicken curry, and
+                rich flavors rooted in tradition.</p>
+              <a href="menu.html#Mumbai Masala" class="btn btn-warning">View Menu</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center g-5 mb-5">
+        <div class="col-md-6">
+          <img src="images/taj.webp" alt="Foodie Hub" class="img-fluid rounded shadow w-100">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3 text-warning">About Foodie Hub</h2>
+          <p>
+            Foodie Hub is your gateway to exploring the rich, flavorful world of Indian cuisine.
+            We connect you with authentic restaurants that offer traditional dishes prepared with
+            love, spices, and heritage. Whether you're craving butter chicken, spicy biryani, or
+            a comforting thali, our curated selections ensure you enjoy the best of Indian food.
+          </p>
+          <p>
+            Discover menus, explore restaurants, and order your favorite meals — all in one place.
+            At Foodie Hub, food is more than taste — it’s an experience worth sharing.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <i class="fas fa-utensils fa-3x text-warning mb-3"></i>
+          <h5 class="fw-bold">Diverse Cuisine</h5>
+          <p class="text-muted">Explore a wide variety of Indian cuisines from different regions — North to South, East
+            to West.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-star fa-3x text-warning mb-3"></i>
+          <h5 class="fw-bold">Top-Rated Restaurants</h5>
+          <p class="text-muted">Carefully selected eateries with quality food, great service, and customer satisfaction.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-motorcycle fa-3x text-warning mb-3"></i>
+          <h5 class="fw-bold">Easy Ordering</h5>
+          <p class="text-muted">Order your favorite meals or explore menus with just a click — fast, simple, and
+            satisfying.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="order" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-warning">Order Your Favorite Meal</h2>
+        <p class="text-muted">Fill out the form below to place your order</p>
+      </div>
+
+      <form action="#" class="row g-4 p-4 bg-white shadow rounded contact">
+
+        <!-- Customer Name -->
+        <div class="col-md-6">
+          <label for="name" class="form-label fw-semibold">Customer Name</label>
+          <input type="text" class="form-control" id="name" placeholder="e.g. Farhan Khan" required>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="col-md-6">
+          <label for="phone" class="form-label fw-semibold">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="09XX XXX XXXX" required>
+        </div>
+
+        <!-- Restaurant Dropdown -->
+        <div class="col-md-6">
+          <label for="restaurant" class="form-label fw-semibold">Select Restaurant</label>
+          <select class="form-select" id="restaurant" required>
+            <option disabled selected>-- Choose a Restaurant --</option>
+            <option>Taj Mahal Bistro</option>
+            <option>Karim's, Delhi</option>
+            <option>Delhi Darbar</option>
+            <option>Mumbai Masala</option>
+            <option>Goa Grill</option>
+            <option>Kolkata Kitchen</option>
+          </select>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="col-md-6">
+          <label class="form-label fw-semibold">Menu Items & Quantity</label>
+
+          <!-- Item 1 -->
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Butter Chicken" id="item1">
+              <label class="form-check-label" for="item1">Butter Chicken</label>
+            </div>
+            <input type="number" min="1" placeholder="Qty" class="form-control form-control-sm w-25 ms-2">
+          </div>
+
+          <!-- Item 2 -->
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Biryani" id="item2">
+              <label class="form-check-label" for="item2">Biryani</label>
+            </div>
+            <input type="number" min="1" placeholder="Qty" class="form-control form-control-sm w-25 ms-2">
+          </div>
+
+          <!-- Item 3 -->
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Paneer Tikka" id="item3">
+              <label class="form-check-label" for="item3">Paneer Tikka</label>
+            </div>
+            <input type="number" min="1" placeholder="Qty" class="form-control form-control-sm w-25 ms-2">
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12 text-center mt-3">
+          <button type="submit" class="btn btn-warning px-5 py-2 fw-semibold">Submit Order</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Info -->
+        <div class="col-md-6 text-center">
+          <h4 class="text-warning fw-bold mb-3">Contact Us</h4>
+          <p class="mb-2"><i class="bi bi-envelope-fill text-warning me-2"></i> foodiehubindia@gmail.com</p>
+          <p class="mb-2"><i class="bi bi-telephone-fill text-warning me-2"></i> +93 700 123 456</p>
+          <p><i class="bi bi-geo-alt-fill text-warning me-2"></i> Kabul, Afghanistan</p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="col-md-6 text-center">
+          <h4 class="text-warning fw-bold mb-3">Follow Us</h4>
+          <a href="#" class="text-warning fs-4 me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-warning fs-4 me-3" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://x.com/Farida_Faqiri" target="_blank" class="text-warning fs-4 me-3" aria-label="Twitter/X">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a href="#" class="text-warning fs-4" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+
+
+      </div>
+
+      <hr class="border-light my-4">
+
+      <!-- Footer Bottom Text -->
+      <div class="row">
+        <div class="col text-center text-md-center">
+          <small class="text-muted">&copy; 2025 <span class="text-warning">Foodie Hub</span>. All rights
+            reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
