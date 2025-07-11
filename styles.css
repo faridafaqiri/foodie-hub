@@ -92,3 +92,23 @@ body {
     margin-bottom: 1.5rem;
   }
 }
+
+.text-orange {
+  color: #ff6600;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  color: #ff6600;
+  position: relative;
+}
+
+.nav-pills .nav-link.active::after {
+  content: "▼";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  font-size: 0.7rem;
+  color: #ff6600;
+}
